@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">vehicleTicketApp</string>
+    <string name="email_address">Email address</string>
+    <string name="main_page">Main Page!</string>
+</resources>
