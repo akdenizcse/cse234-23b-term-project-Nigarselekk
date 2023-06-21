@@ -6,4 +6,122 @@
     android:layout_height="match_parent"
     tools:context=".Payment">
 
+    <TextView
+        android:id="@+id/seatnum_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Seat Number:9"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/payment_namesurname"
+        app:layout_constraintEnd_toStartOf="@+id/cost_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_icon" />
+
+    <TextView
+        android:id="@+id/cost_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="104dp"
+        android:text=" Cost : 300 TL"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/payment_namesurname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/seatnum_text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/back_icon"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="335dp"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toTopOf="@+id/seatnum_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backpage_icon" />
+
+    <EditText
+        android:id="@+id/payment_namesurname"
+        android:layout_width="291dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:hint="Please enter the name and surname "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/phonenumber_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seatnum_text" />
+
+    <EditText
+        android:id="@+id/phonenumber_text"
+        android:layout_width="284dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="68dp"
+        android:hint='Please enter the phone number'
+        app:layout_constraintBottom_toTopOf="@+id/cardnumber_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_namesurname" />
+
+    <EditText
+        android:id="@+id/cardnumber_text"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="73dp"
+        android:hint="Card Number"
+
+        app:layout_constraintBottom_toTopOf="@+id/expirationdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phonenumber_text" />
+
+    <EditText
+        android:id="@+id/expirationdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="264dp"
+        android:hint="Expiration Date"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardnumber_text" />
+
+
+    <Button
+        android:id="@+id/pay_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="179dp"
+        android:text="PAY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expirationdate" />
+
+
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

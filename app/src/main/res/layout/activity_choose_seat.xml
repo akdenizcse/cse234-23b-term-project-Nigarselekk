@@ -6,4 +6,78 @@
     android:layout_height="match_parent"
     tools:context=".ChooseSeat">
 
+    <TextView
+        android:id="@+id/chooseseat_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="150dp"
+        android:text="Choose Seat"
+        android:textColor="#BD4291"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/chooseseat_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/chooseseat_image"
+        android:layout_width="507dp"
+        android:layout_height="450dp"
+        android:layout_marginBottom="10dp"
+        android:scrollbarSize="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/seatnumber_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseseat_text"
+        app:srcCompat="@drawable/choose_seatnumber" />
+
+    <EditText
+        android:id="@+id/enterseatnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="70dp"
+        android:height="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/choose_seat_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seatnumber_text" />
+
+    <TextView
+        android:id="@+id/seatnumber_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="270dp"
+        android:text="Choose seat number:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseseat_image" />
+
+    <Button
+        android:id="@+id/choose_seat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="69dp"
+        android:text="Confirm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterseatnumber" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

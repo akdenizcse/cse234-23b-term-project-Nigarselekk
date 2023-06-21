@@ -9,4 +9,18 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="pink">#FFBD4291</color>
+    <color name="startColor">#FFBD4291</color>
+    <color name ="buttonColor" > #FFBD4291</color>
+    <color name ="endColor" >#DAC2D2</color>
+    <color name="centerColor">#CF88B6</color>
+
+    <color name="colorPrimary">#BD4291</color>
+    <color name="colorPrimaryDark">#BD4291</color>
+    <color name="colorAccent">#CF88B6</color>
+
+
+
+
+
+
 </resources>

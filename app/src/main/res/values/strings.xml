@@ -2,4 +2,24 @@
     <string name="app_name">vehicleTicketApp</string>
     <string name="email_address">Email address</string>
     <string name="main_page">Main Page!</string>
+    <string name="no_account">Don\'t have an account? <b>Sign Up !</b></string>
+    <string name="register_text">Register</string>
+    <string name="firstPage_text">ARE YOU READY TO TRAVELİNG EXPERİENCE WİTH US</string>
+    <string name="startButton_text">Let\'s Travel</string>
+    <string name="password">Password</string>
+    <string name="date">Date</string>
+    <string name="to_city">To</string>
+    <string name="from_city">From</string>
+    <string name="password_lgn">Password</string>
+    <string name="search_ticket">Search Ticket</string>
+    <string name="past_travels">Past Travels</string>
+    <string name="account">Account</string>
+    <string name="success_message">         Your payment has been successful,
+   thank you for ordering ticket using our app.</string>
+    <string name="pay_information_text">                    Passenger: Nigar Selek Departure Bus Station : Antalya Bus Station Arrived Bus Station : Ankara Bus Station Date and Time : 21.06.23      13:00
+               Ticket Number: 1A2B3C
+ </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
