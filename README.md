@@ -1,5 +1,4 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/bNK1Gd0z)
-Project presentation link: [https://drive.google.com/drive/u/1/my-drive ](https://drive.google.com/file/d/1NvETAL1ot9t2PJ2nKHPhvJGMc2un_sJJ/view?usp=drive_link)
 App' prototype link: https://www.figma.com/file/LeslJi1MEXQEIzdiPfkBOJ/Vehicle-Ticket?type=design&node-id=18%3A26&t=wTa1Lujtu5Rp27yX-1
 First page of app contains let's travel button and image. User can start app by clicking button or image. And register page is asking user’s information for register. İf user does not have an account, user enter the informations for register then user must sign in. İf user already have an account , user click sign in button and login directly.
 If the user does not remember the password, user must click on the forget password text. Thus,user is directed to forget password page and provided to create a new password with user’s e-mail address.
